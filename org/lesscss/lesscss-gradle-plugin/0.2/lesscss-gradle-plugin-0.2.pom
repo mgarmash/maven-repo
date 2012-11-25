@@ -4,13 +4,19 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.lesscss</groupId>
   <artifactId>lesscss-gradle-plugin</artifactId>
-  <version>0.1</version>
+  <version>0.2</version>
   <dependencies>
     <dependency>
       <groupId>org.spockframework</groupId>
       <artifactId>spock-core</artifactId>
       <version>0.6-groovy-1.8</version>
       <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.mozilla</groupId>
+      <artifactId>rhino</artifactId>
+      <version>1.7R4</version>
+      <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.lesscss</groupId>
